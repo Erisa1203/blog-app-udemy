@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(241, 242, 242);
+  padding: 20px;
+}
+
+nav a {
+  margin-right: 20px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+nav svg {
+  margin-right: 8px;
+  color: #b7b7b7;
+}

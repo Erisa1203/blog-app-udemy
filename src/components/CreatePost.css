@@ -1,0 +1,63 @@
+.createPostPage {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  max-width: 500px;
+  margin: 40px auto;
+  /* height: 90vh; */
+  
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+input, textarea {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  
+}
+
+textarea::placeholder {font-family: Arial; color: #333;}
+input::placeholder {font-family: Arial; color: #333;}
+
+input::placeholder, textarea::placeholder {
+  color: #888888;
+  font-weight: 400;
+}
+
+textarea {
+  height: 200px;
+}
+
+.inputPost__title {
+  margin-bottom: 8px;
+}
+
+.postContainer {
+  
+}
+
+.inputPost {
+  margin-bottom: 16px;
+}
+
+.postButton {
+  background: #1da0d6;
+  border: none;
+  width: 100%;
+  padding: 16px;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.postButton:hover {
+  opacity: .9;
+}
