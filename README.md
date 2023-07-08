@@ -1,3 +1,14 @@
+
+react/firebase勉強で簡単なブログアプリを作成しました。
+
+https://blog-app-udemy.vercel.app/
+
+### 実装内容
+- googleでサインイン
+- ログアウト
+- 投稿機能
+- 自分の投稿のみ削除可能
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
